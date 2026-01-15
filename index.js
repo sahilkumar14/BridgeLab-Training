@@ -189,4 +189,19 @@ function add(x, y){   //perform addition of two numbers
 
 console.log("Function Add(10, 5):", add(10, 5));
 
+// Simple BAckend Login
+const Admin = {
+    username: "admin",
+    password: "1234"
+};
 
+function login(username, password){
+    if(username === Admin.username && password === Admin.password){
+        console.log("Login Successful!");
+    }else{
+        console.log("Login Failed! Invalid username or password.");
+    }
+}
+
+login("admin", "1234");  //Test login function
+login("user", "abcd");    //Test login function with invalid credentials
