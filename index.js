@@ -165,3 +165,28 @@ if(loginAge  >= 18){
 } else {
     console.log("Not allowed to login.");
 }
+
+
+//loop
+/*
+  1. for loop: used to repeat a block of code a specified number of times.
+  2. while loop: used to repeat a block of code as long as a specified condition is true.
+  3. do...while loop: used to repeat a block of code at least once, and then continue repeating it as long as a specified condition is true.  
+*/
+for(let i = 1; i <= 5; i++){
+    console.log("For Loop Iteration:", i);
+}
+
+//function 
+/*
+    A function is a block of reusable code that is designed to perform a specific task.
+    Functions help in organizing code, improving readability, and reducing redundancy.
+*/
+
+function add(x, y){   //perform addition of two numbers
+    return x + y;
+}
+
+console.log("Function Add(10, 5):", add(10, 5));
+
+
